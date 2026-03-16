@@ -1,7 +1,2 @@
 services:
-- type: web
-  name: wonderbooks-backend
-    env: docker
-      plan: free
-        rootDir: backend/backend
-        
+- {type: web, name: wonderbooks-backend, env: docker, plan: free, rootDir: backend/backend}
