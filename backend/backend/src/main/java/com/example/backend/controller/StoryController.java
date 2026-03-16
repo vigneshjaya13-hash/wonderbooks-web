@@ -19,7 +19,7 @@ import com.example.backend.repository.StoryRepository;
 
 @RestController
 @RequestMapping("/api/stories")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://wonderbooks-web.vercel.app")
 public class StoryController {
 
     @Autowired

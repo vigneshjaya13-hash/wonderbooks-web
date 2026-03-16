@@ -21,7 +21,7 @@ import com.example.backend.repository.UserRepository;
 
     @RestController
     @RequestMapping("/users")
-    @CrossOrigin(origins = "*")
+    @CrossOrigin(origins = "https://wonderbooks-web.vercel.app")
     public class UserController {
 
         @Autowired
