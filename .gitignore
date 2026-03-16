@@ -1,0 +1,19 @@
+# Node
+node_modules/
+dist/
+build/
+.env
+
+# Spring Boot
+target/
+*.jar
+*.war
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
